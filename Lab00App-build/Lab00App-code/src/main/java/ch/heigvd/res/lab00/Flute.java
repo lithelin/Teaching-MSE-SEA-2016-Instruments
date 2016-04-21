@@ -22,11 +22,6 @@ public class Flute implements IInstrument {
     super();
   }
 
-
-  public Flute(String message) {
-    this.message = message;
-  }
-
   public String getColor(){
     return color;
   }
