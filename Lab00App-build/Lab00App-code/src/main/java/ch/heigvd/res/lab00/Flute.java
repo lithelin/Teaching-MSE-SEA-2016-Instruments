@@ -14,7 +14,7 @@ package ch.heigvd.res.lab00;
  */
 public class Flute implements IInstrument {
 
-  private int soundVolume;
+  private int soundVolume = 5;
   private String color = "blue";
   private String sound = "tttttuuuuuu";
 
@@ -31,8 +31,11 @@ public class Flute implements IInstrument {
     return color;
   }
 
-  public String getSound() {
+  public String play() {
     return sound;
   }
 
+  public int getSoundVolume(){
+    return soundVolume;
+  }
 }
