@@ -18,12 +18,12 @@ public class Flute implements IInstrument {
   private String color = "blue";
   private String sound = "tttttuuuuuu";
 
-  public Trumpet() {
+  public Flute() {
     super();
   }
 
 
-  public Trumpet(String message) {
+  public Flute(String message) {
     this.message = message;
   }
 
